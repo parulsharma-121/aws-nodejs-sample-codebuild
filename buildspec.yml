@@ -12,6 +12,7 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - printenv
+      - echo testing...trigger
       - npm install
       - npm install unit.js
   build:
